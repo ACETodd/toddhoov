@@ -13,7 +13,8 @@ export default function Beginning() {
   const textBoxStyle = {
     color: "white",
     textAlign: "center",
-    fontFamily: "'Geist Mono', monospace"
+    fontFamily: "'Geist Mono', monospace",
+    fontSize: '18px'
   };
 
   return (
