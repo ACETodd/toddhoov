@@ -1,25 +1,9 @@
 import { TypeAnimation } from "react-type-animation";
 
-
 export default function Beginning() {
-  const containerStyle = {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    height: "100vh",
-    backgroundColor: '#13031d',
-  };
-
-  const textBoxStyle = {
-    color: "white",
-    textAlign: "center",
-    fontFamily: "'Geist Mono', monospace",
-    fontSize: '18px'
-  };
-
   return (
-    <div style={containerStyle}>
-      <div style={textBoxStyle}>
+    <div className="flex justify-center items-center min-h-screen w-full bg-[#13031d]">
+      <div className="text-white text-center font-['Geist_Mono'] text-[32px] lg:text-lg">
         <TypeAnimation
           sequence={["What are you doing here..?", 500]}
           repeat={Infinity}
